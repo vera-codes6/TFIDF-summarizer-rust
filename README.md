@@ -1,17 +1,6 @@
-
-![project-banner](https://github.com/shubham0204/tfidf-summarizer-rs/assets/41076823/f2855bcb-9573-4b70-9c38-7d4120511896)
-
 # TF‑IDF Text Summarizer (Rust)
 
-[![Crate](https://img.shields.io/crates/v/tfidf-text-summarizer.svg)](https://crates.io/crates/tfidf-text-summarizer)
-[![Docs](https://docs.rs/tfidf-text-summarizer/badge.svg)](https://docs.rs/tfidf-text-summarizer)
-
 > Extractive summarization using TF‑IDF to rank sentences. Parallel version included.
-
-Do read the blog: Building a cross‑platform TF‑IDF text summarizer in Rust — https://medium.com/towards-data-science/building-a-cross-platform-tfidf-text-summarizer-in-rust-7b05938f4507
-
-![tfidf_repo_image](https://github.com/shubham0204/tfidf-summarizer.rs/assets/41076823/09c06763-0098-49d0-b9fe-ca7e9995527e)
-
 Contents
 
 1. Usage
