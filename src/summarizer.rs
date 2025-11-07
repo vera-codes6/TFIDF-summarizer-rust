@@ -24,8 +24,7 @@ impl Summarizer {
                                                 .iter()
                                                 .map( String::as_str )
                                                 .collect() ; 
-        // let mut tokens: Vec<Vec<&str>> = Vec::new(); 
-        let mut tokens: Vec<Vec<&str>> = []; 
+        let mut tokens: Vec<Vec<&str>> = Vec::new(); 
 
         for sentence in &sentences {
             tokens.push( Tokenizer::sentence_to_tokens(sentence) ) ; 
