@@ -29,7 +29,7 @@ int main( int argc , char** argv ) {
     gettimeofday(&timecheck, NULL);
     end = (long)timecheck.tv_sec * 1000 + (long)timecheck.tv_usec / 1000;
     
-    printf( "%s \n" , summarized_text ) ;
+    printf("%s \n" , summarized_text) ;
     printf("%ld milliseconds elapsed\n", (end - start));
     
     return 0 ;
